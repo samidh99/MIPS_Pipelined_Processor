@@ -1,3 +1,5 @@
+// Author: Samidh Mehta
+
 module tb_processor();
 reg clk;
 reg reset;
