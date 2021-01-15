@@ -9,7 +9,7 @@ Problem Statement:
 * The processor has instruction fetch unit, register file (with 8 8 bit registers), Execution and Writeback unit. 
 * Read and write operations on Register file can happen simultaneously and should be independent of CLK. 
 * The processor also contains three pipelined registers IF/ID, ID/EX and EX/WB. 
-* Functioning:
+* Functionality:
   * When reset is activated the PC, IF/ID, ID/EX, EX/WB registers are initialized to 0, the instruction memory and registerfile get loaded by predefined values. 
   * When the instruction unit starts fetching the first instruction the pipeline registers contain unknown values. 
   * When the second instruction is being fetched in IF unit, the IF/ID registers will hold the instruction code for first instruction. 
