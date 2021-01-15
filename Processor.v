@@ -1,3 +1,5 @@
+// Author: Samidh Mehta
+
 module proc (input clk, input reset);
 
 //instruction fetch 
