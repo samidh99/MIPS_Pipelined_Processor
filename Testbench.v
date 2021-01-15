@@ -1,4 +1,4 @@
-module tb_proc_assgn2();
+module tb_processor();
 reg clk;
 reg reset;
 
