@@ -1,3 +1,5 @@
+// Author: Samidh Mehta
+
 module Register_file(
 	input [2:0] Read_Reg_Num_1,
 	input [2:0] Read_Reg_Num_2,
