@@ -1,3 +1,6 @@
+// Author: Samidh Mehta
+
+
 module Instruction_Memory( input [7:0] PC, input reset,output reg[7:0] Instruction_Code);
 reg [7:0] Mem[7:0]; //byte addressable memory 8 locations
 
