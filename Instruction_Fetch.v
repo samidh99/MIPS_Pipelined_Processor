@@ -11,7 +11,7 @@ always@(reset)
 begin
 if(reset==0) //if reset is equal to logic 0
 	begin
-//2017AAPS0288G --> A=2, B=8, C=8, x=2, y=2, z=3
+// Instructions and their respective Hex Code. 
 //	mov R2, R2	12
 //	add R2, R2	52
 //	add R3, R2	5A
@@ -21,7 +21,6 @@ if(reset==0) //if reset is equal to logic 0
 
 	Mem[5]=8'h53; Mem[4]=8'h13; Mem[3]=8'hC5; Mem[2]=8'h5A; Mem[1]=8'h52; Mem[0]=8'h12;
 	
-//Mem[7]=8'h22; Mem[6]=8'h53;
 	end
 end
 endmodule
