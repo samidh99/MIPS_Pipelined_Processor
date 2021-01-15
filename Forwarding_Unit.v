@@ -1,3 +1,5 @@
+// Author: Samidh Mehta
+
 module ALU(A , B ,AluOp ,result);
 input [7:0]A ;
 input [7:0]B ;
