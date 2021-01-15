@@ -1,3 +1,6 @@
+// Author: Samidh Mehta
+
+
 module ifidreg (input clk, input reset, input [7:0] instruction, output reg [2:0]rs1, output reg [2:0] rs2, output reg [7:0]IFIDIR);
 
 always@(posedge clk, negedge reset)
