@@ -17,4 +17,4 @@ Problem Statement:
 * (Assume 8-bit PC. Also Assume Address and Data size as 8-bits)
 
 Data Path and Control Path of the processor: 
-![Design](https://user-images.githubusercontent.com/33369534/104713507-fafc4d00-5749-11eb-9c4f-ef13fb346154.PNG)
+![Design_1](https://user-images.githubusercontent.com/33369534/104713966-94c3fa00-574a-11eb-8d91-b1c2e40aa8a5.PNG)
